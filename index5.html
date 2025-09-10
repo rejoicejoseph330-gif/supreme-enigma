@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+   
+
+    body {
+        font-family: Arial, sans-serif;
+ 
+     margin: 0px;
+  
+    padding: 0px;
+  
+    background-image: url('foodimage.jpg');
+ 
+     background-size: cover;
+ 
+     background-position: center;
+    
+  background-repeat: no-repeat;
+ 
+    }
+    
+    header {
+        background-color: #333;
+        color: #fff;
+        padding: 1em;
+        text-align: center;
+    }
+    
+    nav ul {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav li {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    
+    nav a {
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 2em;
+    }
+    
+    section {
+        background-color: #fff;
+        padding: 20px;
+        border: 1px solid #ddd;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        margin-bottom: 50px;
+        width: 80%;
+    }
+    
+    h1, h2, h3 {
+        margin-top: 0px;
+    }
+    /* Make the image fully responsive */
+  .carousel-inner img {
+   width: 1100px;
+   height: 500px;
+  }
+   
+  
+    </style>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="home page.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="resturant.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="order.html">Order</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 class="text-center text-dark"><b>We serve delicious food in a cozy atmosphere </b></h1>
+            <h2 class="text-center text-dark"><b>Welcome to Unique foods, where passion meets plate.</b></h2>
+            <p class="text-dark"><b>We're a team of food enthusiasts dedicated to crafting exceptional dining experiences that delight the senses. From our carefully selected ingredients to our warm and inviting atmosphere, every detail is designed to make you feel at home."</b></p>
+        
+            <button class="bg-dark text-light"><a href="menu.html">view Menu</a></button><br>
+         
+         
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+    
+  </ul>
+  <div class="carousel-inner">
+    <div class="carousel-item active t">
+      <img src="jollof.jpg" alt="Los Angeles" width="50" height="50">
+      <div class="carousel-caption">
+        <h3>RICE</h3>
+        <p>We had such a great time in Uniquefood!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="foodA.jpg" alt="Chicago" width="50" height="50">
+      <div class="carousel-caption">
+        <h3>Soup</h3>
+        <p>Thank you, Uniquefood!</p>
+      </div>   
+    </div>
+    
+    <div class="carousel-item">
+      <img src="foodc.jpeg" alt="New York" width="500" height="50">
+      <div class="carousel-caption">
+        <h3>dishes</h3>
+        <p>We love Uniquefood!</p>
+      </div>   
+    </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+</main>
+ <footer class="cotainer-fluid text-center bg-dark text-light">www.@Uniquefood.com</footer>
+    <script src="bootstrap-4.0.0/dist/js/bootstrap.min.js">JavaScript (script.js)
+
+        // Add event listener to the button
+        document.querySelector('button').addEventListener('click', () => {
+            // Scroll to the menu section
+            document.querySelector('#menu').scrollIntoView({ behavior: 'smooth' });
+        });</script>
+       
+</body>
+</html>
